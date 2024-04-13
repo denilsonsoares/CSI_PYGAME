@@ -9,6 +9,7 @@ class Fire(pygame.sprite.Sprite):
         self.rect = pygame.Rect(x, y, width, height)
         self.animation_count = 0
         self.animation_name = "off"
+        self.name = "fire"  # Add a name attribute to the Fire object
         self.load_sprites()  # Load sprites after initializing pygame
 
     def load_sprites(self):
